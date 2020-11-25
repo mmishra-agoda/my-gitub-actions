@@ -7,3 +7,7 @@ test('mooncake knows what to say', () => {
 test('mooncake is not sure what to say', () => {
   expect(mooncakeSays()).toBe('(o.o) chookity?');
 });
+
+test('mooncake is testing', () => {
+  expect(mooncakeSays()).toBe('(o.o) chookity?');
+});
